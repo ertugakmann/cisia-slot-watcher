@@ -7,8 +7,8 @@ URL = "https://testcisia.it/calendario.php?tolc=cents&l=gb&lingua=inglese"
 CHECK_EVERY_SECONDS = 60
 KEYWORDS = ["AVAILABLE"]  
 
-BOT_TOKEN = "*"
-CHAT_ID = "*"
+BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
+CHAT_ID = "YOUR_CHAT_ID"
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (CISIA-Availability-Checker)"}
 
