@@ -12,7 +12,7 @@ I built a lightweight Python monitoring script that:
 
 - Periodically checks the official CISIA calendar page
 - Parses the HTML using BeautifulSoup
-- Looks specifically for rows containing **CEnT-S@HOME** and **AVAILABLE**
+- Looks specifically for **table rows** containing both `CEnT-S@HOME` and `AVAILABLE`
 - Sends an instant Telegram notification when a matching slot appears
 
 This way, I can react immediately when a new slot is published.
@@ -22,14 +22,14 @@ This way, I can react immediately when a new slot is published.
 - Checks the page at a configurable interval
 - Filters only **CEnT-S@HOME** availability (no false alarms from legends or headers)
 - Sends real-time alerts via Telegram
-- Simple and lightweight (requests + BeautifulSoup)
+- Simple and lightweight (uses `requests` + `beautifulsoup4`)
 
 ## 🛠️ Tech Stack
 
-- Python 3
-- requests
-- beautifulsoup4
-- Telegram Bot API
+- Python 3  
+- requests  
+- beautifulsoup4  
+- Telegram Bot API  
 
 ## 📦 Installation
 
